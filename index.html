@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tursina Yisehak | Software Engineer</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- Animated background blobs -->
+  <div class="bg-blobs">
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+  </div>
+
+  <!-- Navbar -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-logo">
+      <span class="logo-bracket">&lt;</span>TY<span class="logo-bracket">/&gt;</span>
+    </div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home" class="nav-link active">Home</a></li>
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#skills" class="nav-link">Skills</a></li>
+      <li><a href="#projects" class="nav-link">Projects</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+    <div class="nav-actions">
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+        <i class="fas fa-sun" id="themeIcon"></i>
+      </button>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <div class="hero-badge glass-card">
+        <span class="status-dot"></span> Available for opportunities
+      </div>
+      <h1 class="hero-title">
+        Hi, I'm <span class="gradient-text">Tursina Yisehak</span>
+      </h1>
+      <div class="hero-subtitle">
+        <span class="typed-text" id="typedText"></span><span class="cursor">|</span>
+      </div>
+      <p class="hero-desc">
+        Software engineering student and full stack developer passionate about building clean, efficient software and solving real-world problems through code.
+      </p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn btn-primary">View My Work</a>
+        <a href="#contact" class="btn btn-ghost">Get In Touch</a>
+      </div>
+      <div class="hero-socials">
+        <a href="https://github.com/tuyy-99" target="_blank" class="social-link" aria-label="GitHub">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/tursina-yisehak-7a9942358" target="_blank" class="social-link" aria-label="LinkedIn">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="mailto:tursinayisehak@gmail.com" class="social-link" aria-label="Email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="avatar-container">
+        <div class="avatar-ring"></div>
+        <div class="avatar-ring ring-2"></div>
+        <div class="avatar-inner glass-card">
+          <img src="pp.jpg" alt="Tursina Yisehak" class="avatar-photo" />
+          <div class="floating-badge badge-1 glass-card"><i class="fab fa-python"></i> Python</div>
+          <div class="floating-badge badge-2 glass-card"><i class="fab fa-java"></i> Java</div>
+          <div class="floating-badge badge-3 glass-card"><i class="fas fa-database"></i> MySQL</div>
+          <div class="floating-badge badge-4 glass-card"><i class="fab fa-js"></i> TypeScript</div>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <div class="scroll-mouse"><div class="scroll-wheel"></div></div>
+      <span>Scroll down</span>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Who I Am</span>
+        <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-text glass-card">
+          <p>I'm a <strong>software engineering student</strong> and <strong>full stack developer</strong> with a genuine passion for crafting clean, efficient, and meaningful software. My journey in tech is driven by curiosity and a desire to turn ideas into real, working products.</p>
+          <p>I enjoy working on <strong>web projects</strong> — from sleek React frontends to Python/Node backends and SQL/MongoDB databases. I love owning the full picture, end to end.</p>
+          <p>When I'm not coding, I'm learning — reading docs, building side projects, and staying up to date with the ever-evolving tech landscape.</p>
+          <div class="about-stats">
+            <div class="stat-item">
+              <span class="stat-num gradient-text">Full</span>
+              <span class="stat-label">Stack Developer</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-num gradient-text">Open</span>
+              <span class="stat-label">To Opportunities</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-num gradient-text">Always</span>
+              <span class="stat-label">Learning</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-cards">
+          <div class="info-card glass-card">
+            <i class="fas fa-graduation-cap"></i>
+            <div>
+              <h4>Education</h4>
+              <p>Software Engineering Student</p>
+            </div>
+          </div>
+          <div class="info-card glass-card">
+            <i class="fas fa-map-marker-alt"></i>
+            <div>
+              <h4>Location</h4>
+              <p>Ethiopia</p>
+            </div>
+          </div>
+          <div class="info-card glass-card">
+            <i class="fas fa-code"></i>
+            <div>
+              <h4>Focus</h4>
+              <p>Full Stack Web Development</p>
+            </div>
+          </div>
+          <div class="info-card glass-card">
+            <i class="fas fa-lightbulb"></i>
+            <div>
+              <h4>Interests</h4>
+              <p>New Tech & Problem Solving</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="section" id="skills">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">What I Know</span>
+        <h2 class="section-title">My <span class="gradient-text">Skills</span></h2>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-category glass-card">
+          <h3><i class="fas fa-code"></i> Languages</h3>
+          <div class="skill-chips">
+            <span class="skill-chip"><i class="fab fa-python"></i> Python</span>
+            <span class="skill-chip"><i class="fab fa-java"></i> Java</span>
+            <span class="skill-chip"><i class="fab fa-js"></i> TypeScript</span>
+            <span class="skill-chip"><i class="fas fa-copyright"></i> C++</span>
+          </div>
+        </div>
+        <div class="skill-category glass-card">
+          <h3><i class="fas fa-database"></i> Databases</h3>
+          <div class="skill-chips">
+            <span class="skill-chip"><i class="fas fa-database"></i> SQL</span>
+            <span class="skill-chip"><i class="fas fa-database"></i> MySQL</span>
+            <span class="skill-chip"><i class="fas fa-leaf"></i> MongoDB</span>
+          </div>
+        </div>
+        <div class="skill-category glass-card">
+          <h3><i class="fas fa-laptop-code"></i> Web & Tools</h3>
+          <div class="skill-chips">
+            <span class="skill-chip"><i class="fab fa-react"></i> React</span>
+            <span class="skill-chip"><i class="fab fa-html5"></i> HTML5</span>
+            <span class="skill-chip"><i class="fab fa-css3-alt"></i> CSS3</span>
+            <span class="skill-chip"><i class="fab fa-js"></i> JavaScript</span>
+            <span class="skill-chip"><i class="fab fa-git-alt"></i> Git</span>
+            <span class="skill-chip"><i class="fas fa-n"></i> Next.js</span>
+            <span class="skill-chip"><i class="fab fa-node-js"></i> Node.js</span>
+            <span class="skill-chip"><i class="fas fa-server"></i> Express</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="section" id="projects">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">What I've Built</span>
+        <h2 class="section-title">My <span class="gradient-text">Projects</span></h2>
+      </div>
+      <div class="projects-grid">
+
+        <div class="project-card glass-card">
+          <div class="project-header">
+            <div class="project-icon" style="background:linear-gradient(135deg,#f472b6,#a78bfa)"><i class="fas fa-robot"></i></div>
+            <div class="project-links">
+              <a href="https://github.com/tuyy-99/astu-smart-desk" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+              <a href="#" aria-label="Live Demo"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+          <h3>ASTU SmartDesk</h3>
+          <p>AI-powered campus assistant for ASTU using RAG — answers student questions from uploaded documents in both English and Amharic, with role-based access and JWT auth.</p>
+          <div class="project-tags"><span>React</span><span>TypeScript</span><span>Node.js</span><span>MongoDB</span><span>Gemini AI</span></div>
+        </div>
+
+        <div class="project-card glass-card">
+          <div class="project-header">
+            <div class="project-icon" style="background:linear-gradient(135deg,#ef4444,#f97316)"><i class="fas fa-bullhorn"></i></div>
+            <div class="project-links">
+              <a href="https://github.com/tuyy-99/ASTU-Smart---Campus-Complaint-System" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+              <a href="#" aria-label="Live Demo"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+          <h3>Campus Complaint System</h3>
+          <p>Full-stack complaint management platform for ASTU — students submit & track complaints, staff resolve them, admins get analytics. Includes anonymous submissions, AI chatbot, and email notifications.</p>
+          <div class="project-tags"><span>React</span><span>TypeScript</span><span>Express</span><span>MongoDB</span><span>Gemini AI</span></div>
+        </div>
+
+        <div class="project-card glass-card">
+          <div class="project-header">
+            <div class="project-icon" style="background:linear-gradient(135deg,#60a5fa,#34d399)"><i class="fas fa-boxes"></i></div>
+            <div class="project-links">
+              <a href="https://github.com/tuyy-99/campus-resource-management" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+              <a href="#" aria-label="Live Demo"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+          <h3>Campus Resource Management</h3>
+          <p>A full-stack platform where students browse and request campus resources while admins manage inventory, handle requests, and track usage — with real-time status updates and a support ticket system.</p>
+          <div class="project-tags"><span>Next.js</span><span>TypeScript</span><span>Express</span><span>MongoDB</span></div>
+        </div>
+
+        <div class="project-card glass-card">
+          <div class="project-header">
+            <div class="project-icon" style="background:linear-gradient(135deg,#a78bfa,#60a5fa)"><i class="fas fa-calendar-alt"></i></div>
+            <div class="project-links">
+              <a href="https://github.com/tuyy-99/astu-class-schedule-finder" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+              <a href="#" aria-label="Live Demo"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+          <h3>ASTU Class Schedule Finder</h3>
+          <p>A Java MVC web app that lets ASTU students search class schedules by course, year, and section, and check room availability — with AJAX-powered dynamic dropdowns. Built as a team lead project.</p>
+          <div class="project-tags"><span>Java</span><span>JSP</span><span>MySQL</span><span>AJAX</span><span>Maven</span></div>
+        </div>
+
+        <div class="project-card glass-card">
+          <div class="project-header">
+            <div class="project-icon" style="background:linear-gradient(135deg,#34d399,#60a5fa)"><i class="fas fa-user-graduate"></i></div>
+            <div class="project-links">
+              <a href="https://github.com/tuyy-99/student-registration-app" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+              <a href="#" aria-label="Live Demo"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+          <h3>Student Registration App</h3>
+          <p>A Java web app for managing student registrations — register students with name, email, and year, then view the full list. Built with Servlets, JSP, JDBC, and MySQL on Tomcat.</p>
+          <div class="project-tags"><span>Java</span><span>JSP</span><span>MySQL</span><span>Servlets</span><span>Maven</span></div>
+        </div>
+
+        <div class="project-card glass-card">
+          <div class="project-header">
+            <div class="project-icon" style="background:linear-gradient(135deg,#fbbf24,#f472b6)"><i class="fab fa-github"></i></div>
+            <div class="project-links">
+              <a href="https://github.com/tuyy-99" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <h3>More on GitHub</h3>
+          <p>I'm always building something new. Check out my GitHub for the latest experiments, side projects, and open-source contributions.</p>
+          <div class="project-tags"><span>GitHub</span><span>Open Source</span></div>
+        </div>
+
+      </div>
+      <div class="projects-cta">
+        <a href="https://github.com/tuyy-99" target="_blank" class="btn btn-ghost">
+          <i class="fab fa-github"></i> View All on GitHub
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="section" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Let's Talk</span>
+        <h2 class="section-title">Get In <span class="gradient-text">Touch</span></h2>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <p class="contact-intro">I'm always open to new opportunities, collaborations, or just a good tech conversation. Feel free to reach out.</p>
+          <div class="contact-links">
+            <a href="mailto:tursinayisehak@gmail.com" class="contact-item glass-card">
+              <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+              <div>
+                <span class="contact-label">Email</span>
+                <span class="contact-value">tursinayisehak@gmail.com</span>
+              </div>
+            </a>
+            <a href="https://www.linkedin.com/in/tursina-yisehak-7a9942358" target="_blank" class="contact-item glass-card">
+              <div class="contact-icon"><i class="fab fa-linkedin"></i></div>
+              <div>
+                <span class="contact-label">LinkedIn</span>
+                <span class="contact-value">tursina-yisehak</span>
+              </div>
+            </a>
+            <a href="https://github.com/tuyy-99" target="_blank" class="contact-item glass-card">
+              <div class="contact-icon"><i class="fab fa-github"></i></div>
+              <div>
+                <span class="contact-label">GitHub</span>
+                <span class="contact-value">tuyy-99</span>
+              </div>
+            </a>
+          </div>
+        </div>
+        <form class="contact-form glass-card" id="contactForm">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Your name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="your@email.com" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" rows="5" placeholder="What's on your mind?" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary full-width">
+            <i class="fas fa-paper-plane"></i> Send Message
+          </button>
+          <div class="form-success" id="formSuccess">
+            <i class="fas fa-check-circle"></i> Message sent! I'll get back to you soon.
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-logo">
+        <span class="logo-bracket">&lt;</span>TY<span class="logo-bracket">/&gt;</span>
+      </div>
+      <p>Designed & Built by <span class="gradient-text">Tursina Yisehak</span></p>
+      <p class="footer-sub">Software Engineering Student · Ethiopia</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
