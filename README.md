@@ -2,7 +2,7 @@
 
 A modern, responsive personal portfolio website built with pure **HTML**, **CSS**, and **JavaScript** — no frameworks, no build tools. Features glassmorphism design, gradient accents, dark/light theme toggle, smooth animations, and a fully working contact form.
 
-🌐 **Live Site:** [tuyy-99.github.io/portfolio2](https://tuyy-99.github.io/portfolio2) *(update after deploying)*
+🌐 **Live Site:** [tuyy-99.github.io/portfolio2]((https://portfolio-using-html5-css-js.netlify.app/)) 
 
 ---
 
